@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify, render_template
 import requests
-import os
 app = Flask(__name__)
 
 GEMINAI_API_KEY = "AIzaSyBXkvwNg8OqSJIo7ZWfJ021N6DnW2zaNVQ"
