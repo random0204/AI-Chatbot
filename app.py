@@ -1,11 +1,9 @@
 from flask import Flask, request, jsonify, render_template
 import requests
 import os
-from dotenv import load_dotenv
-load_dotenv()
 app = Flask(__name__)
 
-GEMINAI_API_KEY = os.getenv('GEMINAI_API_KEY')
+GEMINAI_API_KEY = "AIzaSyBXkvwNg8OqSJIo7ZWfJ021N6DnW2zaNVQ"
 
 
 @app.route('/')
